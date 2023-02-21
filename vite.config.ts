@@ -7,4 +7,8 @@ export default defineConfig(() => ({
 			'Cross-Origin-Opener-Policy': 'same-origin',
 		},
 	},
+	base: '/stylelint-demo/',
+	build: {
+		outDir: 'dist/stylelint-demo',
+	},
 }));
